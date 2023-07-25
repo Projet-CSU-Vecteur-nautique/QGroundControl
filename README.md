@@ -2,10 +2,6 @@
 
 *Ce répertoire sert de documentation pour le GCS. Il relatera des diffrents tests et paramétrages effectués sur la plateforme.*
 
-## Paramétrage du Navio
-
-Sélection de la frame Boat 
-
 ## Installation de QGC
 
 Sur le PC GCS suivre les instructions suivantes: [installation qgc](https://docs.qgroundcontrol.com/master/en/getting_started/download_and_install.html) ou passer par un conteneur (ex: [Docker](https://docs.docker.com/get-docker/)).
@@ -53,6 +49,10 @@ Pour démarrer le conteneur et accéder à l'application depuis un conteneur en 
 sudo docker start QGC # Démarrage
 sudo docker exec -it -u qgc bash # Executer un conteneur en cours
 ```
+
+## Paramétrage du Navio
+
+Sélection de la frame Boat 
 
 ### LISTE DES PARAMETRES
 
